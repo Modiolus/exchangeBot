@@ -11,7 +11,7 @@ import java.sql.Timestamp;
 public class User {
     @Id
     @Column(name = "id", nullable = false)
-    Long chatId;
+    private Long chatId;
 
     private String result;
     private String firstName;
