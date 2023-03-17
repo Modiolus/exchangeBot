@@ -13,7 +13,6 @@ public class User {
     @Column(name = "id", nullable = false)
     private Long chatId;
 
-    private String result;
     private String firstName;
     private String lastName;
     private String userName;
